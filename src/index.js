@@ -4,5 +4,9 @@ const caminhoArquivo = process.argv
 const link = caminhoArquivo[2]
 
 fs.readFile(link, 'utf-8', (erro, texto) => {
-    console.log(texto)
+    verificaPalavrasDuplicadas(texto)
 })
+
+function verificaPalavrasDuplicadas(texto){
+
+}
